@@ -2,6 +2,8 @@ module github.com/viaduct-ai/kustomize-sops
 
 go 1.14
 
+replace go.mozilla.org/sops/v3 v3.6.1 => github.com/clelange/sops/v3 v3.6.1-barbican
+
 require (
 	cloud.google.com/go v0.53.0 // indirect
 	github.com/Azure/azure-sdk-for-go v39.1.0+incompatible // indirect
