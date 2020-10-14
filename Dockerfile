@@ -16,7 +16,7 @@ ENV XDG_CONFIG_HOME=$HOME/.config
 
 ARG PKG_NAME=ksops
 
-WORKDIR /go/src/github.com/viaduct-ai/kustomize-sops
+WORKDIR /go/src/github.com/clelange/kustomize-sops
 
 ADD . .
 
